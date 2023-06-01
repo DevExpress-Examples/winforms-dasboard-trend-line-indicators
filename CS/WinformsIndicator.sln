@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformsIndicator", "WinformsIndicator\WinformsIndicator.csproj", "{62EE6DEC-A048-4722-9F68-5DFD71D8C608}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugNoThemeSync|Any CPU = DebugNoThemeSync|Any CPU
+		DebugTest_NewThemeManager|Any CPU = DebugTest_NewThemeManager|Any CPU
+		DebugTest_NoLegacyBinding|Any CPU = DebugTest_NoLegacyBinding|Any CPU
+		DebugTest|Any CPU = DebugTest|Any CPU
+		DebugTestWithAnalyzers|Any CPU = DebugTestWithAnalyzers|Any CPU
+		DebugVS|Any CPU = DebugVS|Any CPU
+		HierarchicalEngine|Any CPU = HierarchicalEngine|Any CPU
+		PerformanceTest|Any CPU = PerformanceTest|Any CPU
+		PerformanceTests|Any CPU = PerformanceTests|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.DebugNoThemeSync|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.DebugNoThemeSync|Any CPU.Build.0 = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.DebugTest_NewThemeManager|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.DebugTest_NewThemeManager|Any CPU.Build.0 = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.DebugTest_NoLegacyBinding|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.DebugTest_NoLegacyBinding|Any CPU.Build.0 = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.DebugTest|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.DebugTest|Any CPU.Build.0 = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.DebugTestWithAnalyzers|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.DebugTestWithAnalyzers|Any CPU.Build.0 = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.DebugVS|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.DebugVS|Any CPU.Build.0 = Debug|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.HierarchicalEngine|Any CPU.ActiveCfg = Release|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.HierarchicalEngine|Any CPU.Build.0 = Release|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.PerformanceTest|Any CPU.ActiveCfg = Release|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.PerformanceTest|Any CPU.Build.0 = Release|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.PerformanceTests|Any CPU.ActiveCfg = Release|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.PerformanceTests|Any CPU.Build.0 = Release|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62EE6DEC-A048-4722-9F68-5DFD71D8C608}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E902A54D-8624-49C8-8885-9B0F60FAD493}
+	EndGlobalSection
+EndGlobal
