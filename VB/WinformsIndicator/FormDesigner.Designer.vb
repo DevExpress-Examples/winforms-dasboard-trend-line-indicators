@@ -27,18 +27,18 @@ Namespace WinForm
 		''' </summary>
 		Private Sub InitializeComponent()
 			Me.components = New System.ComponentModel.Container()
-			Me.dashboardViewer = New DevExpress.DashboardWin.DashboardDesigner()
-			CType(Me.dashboardViewer, System.ComponentModel.ISupportInitialize).BeginInit()
+			Me.dashboardDesigner = New DevExpress.DashboardWin.DashboardDesigner()
+			CType(Me.dashboardDesigner, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
 			' 
 			' dashboardViewer
 			' 
-			Me.dashboardViewer.Dashboard = New Dashboard1()
-			Me.dashboardViewer.Dock = System.Windows.Forms.DockStyle.Fill
-			Me.dashboardViewer.Location = New System.Drawing.Point(0, 0)
-			Me.dashboardViewer.Name = "dashboardViewer"
-			Me.dashboardViewer.Size = New System.Drawing.Size(800, 450)
-			Me.dashboardViewer.TabIndex = 0
+			Me.dashboardDesigner.Dashboard = New Dashboard1()
+			Me.dashboardDesigner.Dock = System.Windows.Forms.DockStyle.Fill
+			Me.dashboardDesigner.Location = New System.Drawing.Point(0, 0)
+			Me.dashboardDesigner.Name = "dashboardViewer"
+			Me.dashboardDesigner.Size = New System.Drawing.Size(800, 450)
+			Me.dashboardDesigner.TabIndex = 0
 			'this.dashboardViewer.CustomDashboardItemControlCreating += DashboardViewer_CustomDashboardItemControlCreating;
 			' 
 			' Form1
@@ -46,15 +46,15 @@ Namespace WinForm
 			Me.AutoScaleDimensions = New System.Drawing.SizeF(9F, 20F)
 			Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 			Me.ClientSize = New System.Drawing.Size(800, 450)
-			Me.Controls.Add(Me.dashboardViewer)
+			Me.Controls.Add(Me.dashboardDesigner)
 			Me.Name = "Form1"
 			Me.Text = "Form1"
-			CType(Me.dashboardViewer, System.ComponentModel.ISupportInitialize).EndInit()
+			CType(Me.dashboardDesigner, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.ResumeLayout(False)
 
 		End Sub
 
-		Private dashboardViewer As DashboardDesigner
+		Private dashboardDesigner As DashboardDesigner
 
 		#End Region
 	End Class

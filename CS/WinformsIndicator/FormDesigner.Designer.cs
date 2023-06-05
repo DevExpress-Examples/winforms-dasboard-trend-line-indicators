@@ -27,18 +27,18 @@ namespace WinForm {
         /// </summary>
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
-            this.dashboardViewer = new DevExpress.DashboardWin.DashboardDesigner();
-            ((System.ComponentModel.ISupportInitialize)(this.dashboardViewer)).BeginInit();
+            this.dashboardDesigner = new DevExpress.DashboardWin.DashboardDesigner();
+            ((System.ComponentModel.ISupportInitialize)(this.dashboardDesigner)).BeginInit();
             this.SuspendLayout();
             // 
             // dashboardViewer
             // 
-            this.dashboardViewer.Dashboard = new Dashboard1();
-            this.dashboardViewer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dashboardViewer.Location = new System.Drawing.Point(0, 0);
-            this.dashboardViewer.Name = "dashboardViewer";
-            this.dashboardViewer.Size = new System.Drawing.Size(800, 450);
-            this.dashboardViewer.TabIndex = 0;
+            this.dashboardDesigner.Dashboard = new Dashboard1();
+            this.dashboardDesigner.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dashboardDesigner.Location = new System.Drawing.Point(0, 0);
+            this.dashboardDesigner.Name = "dashboardViewer";
+            this.dashboardDesigner.Size = new System.Drawing.Size(800, 450);
+            this.dashboardDesigner.TabIndex = 0;
             //this.dashboardViewer.CustomDashboardItemControlCreating += DashboardViewer_CustomDashboardItemControlCreating;
             // 
             // Form1
@@ -46,15 +46,15 @@ namespace WinForm {
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dashboardViewer);
+            this.Controls.Add(this.dashboardDesigner);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dashboardViewer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dashboardDesigner)).EndInit();
             this.ResumeLayout(false);
 
         }
 
-        private DashboardDesigner dashboardViewer;
+        private DashboardDesigner dashboardDesigner;
 
         #endregion
     }

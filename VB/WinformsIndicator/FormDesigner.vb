@@ -27,9 +27,9 @@ Namespace WinForm
 				.LegendText = "Moving Average"
 			}
 			chartItem.Indicators.Add(trendLine)
-			dashboardViewer.Dashboard = dashboard
-			dashboardViewer.CreateRibbon()
-			dashboardViewer.CreateCustomItemBars()
+			dashboardDesigner.Dashboard = dashboard
+			dashboardDesigner.CreateRibbon()
+			dashboardDesigner.CreateCustomItemBars()
 		End Sub
 	End Class
 
