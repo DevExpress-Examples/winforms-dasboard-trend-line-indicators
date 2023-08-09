@@ -1,7 +1,3 @@
-<!-- default badges list -->
-Automatically generated badges
-<!-- default badges end -->
-
 # BI Dashboard for WinForms - Custom Trend Indicator
 
 The following example creates a custom WinForms “Moving Average” indicator (when using DevExpress BI Dashboard):
