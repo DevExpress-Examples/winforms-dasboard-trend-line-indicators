@@ -25,5 +25,3 @@ The following example creates a custom WinForms “Moving Average” indicator (
 ## Documentation
 
 - [Trend Indicators](https://docs.devexpress.com/Dashboard/404406/winforms-dashboard/winforms-designer/create-dashboards-in-the-winforms-designer/dashboard-item-settings/chart/trend-indicators?v=23.1)
-
-
